@@ -5,7 +5,7 @@ const Questions = (props) => {
         <div className="bg-white max-w-xl rounded overflow-hidden shadow-lg">
             <figure class="relative">
             <img className="object-cover h-48 sm:h-80 w-screen" src={props.questions[props.currentQuestion].imageURL} alt="Decorative Squid Games screenshots"  />
-                <figcaption className="absolute bottom-1 right-2 text-white text-opacity-70"><p className="italic text-tiny md:text-xs">{props.questions[props.currentQuestion].imageSource}</p> </figcaption>
+                <figcaption className="absolute bottom-1 right-2 text-white text-opacity-70"><p className="italic text-xs">{props.questions[props.currentQuestion].imageSource}</p> </figcaption>
             </figure>
             
                     <div className="px-6 py-4">
