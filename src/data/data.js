@@ -40,7 +40,7 @@
 				{ answerText: 'A player who refuses to play will be terminated.', isCorrect: false },
 				{ answerText: 'A player is not allowed to use restroom during the game.', isCorrect: true },
 			],
-            imageURL: 'images/q4.png',
+            imageURL: 'images/q4.jpg',
             imageSource: 'Deadline Hollywood'
 		},
       {
@@ -62,7 +62,7 @@
 				{ answerText: 'His younger brother', isCorrect: false },
 				{ answerText: 'His older brother', isCorrect: true },
 			],
-            imageURL: 'images/q6.jpeg',
+            imageURL: 'images/q6.jpg',
             imageSource: 'Parade'
 		},
       {
@@ -73,7 +73,7 @@
 				{ answerText: '5', isCorrect: false },
 				{ answerText: '6', isCorrect: true },
 			],
-            imageURL: 'images/q7.png',
+            imageURL: 'images/q7.jpg',
           imageSource: 'New York Magazine'
 		},
       {
@@ -84,7 +84,7 @@
 				{ answerText: '564', isCorrect: false },
 				{ answerText: '654', isCorrect: false },
 			],
-            imageURL: 'images/q8.jpeg',
+            imageURL: 'images/q8.jpg',
           imageSource: 'Buzzfeed'
 		},
       {
