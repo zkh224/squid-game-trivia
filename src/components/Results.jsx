@@ -9,7 +9,7 @@ const Results = (props) => {
                       
                        <button class="bg-green-600 hover:bg-pink-500 text-white font-bold py-2 px-4 rounded-full mb-4" onClick={props.reset}>Try Again!</button> 
                       
-                      <img className="object-contain h-full md:h-80 w-screen" src={props.imageResult(props.score)} alt="The decorative GIF reaction to score"  />
+                      <img className="object-contain h-full md:h-80 w-full" src={props.imageResult(props.score)} alt="The decorative GIF reaction to score"  />
                       
         </div> 
     );
