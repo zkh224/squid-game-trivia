@@ -7,8 +7,8 @@
 				{ answerText: '45.6 billion won', isCorrect: true },
 				{ answerText: '46 billion won', isCorrect: false },
 			],
-            imageURL: 'https://images.unsplash.com/photo-1622219999459-ab5b14e5f45a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2532&q=80',
-            imageSource: 'Unsplash'
+            imageURL: 'images/q1.jpg',
+            imageSource: 'Unsplash',
 		},
 		{
 			questionText: 'How many people took part in the game?',
@@ -18,7 +18,7 @@
 				{ answerText: '500', isCorrect: false },
 				{ answerText: '465', isCorrect: false },
 			],
-            imageURL: 'https://cdn.oneesports.gg/cdn-data/2021/09/SquidGame_Bedroom_Crowd.jpg',
+            imageURL: 'images/q2.jpg',
             imageSource: 'ONE Esports'
 		},
 		{
@@ -29,7 +29,7 @@
 				{ answerText: '99', isCorrect: false },
 				{ answerText: '299', isCorrect: false },
 			],
-            imageURL: 'https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-10/211008-squid-game-abdul-ali-ew-1024a-68f560.jpg',
+            imageURL: 'images/q3.jpg',
             imageSource: 'NBC News'
 		},
 		{
@@ -40,7 +40,7 @@
 				{ answerText: 'A player who refuses to play will be terminated.', isCorrect: false },
 				{ answerText: 'A player is not allowed to use restroom during the game.', isCorrect: true },
 			],
-            imageURL: 'https://deadline.com/wp-content/uploads/2021/09/squid-game.png?crop=123px%2C150px%2C2100px%2C1176px&resize=681%2C383',
+            imageURL: 'images/q4.png',
             imageSource: 'Deadline Hollywood'
 		},
       {
@@ -51,8 +51,8 @@
 				{ answerText: 'Red light, green light', isCorrect: true },
 				{ answerText: 'Marbles', isCorrect: false },
 			],
-            imageURL: 'https://cdn.vox-cdn.com/thumbor/J_O4i3ccfXGe6L2ShLwDerwt0qQ=/0x0:2880x1920/1820x1213/filters:focal(1210x730:1670x1190):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69927224/SquidGame_Unit_101_001.0.jpg',
-          imageSource: 'Vox'
+            imageURL: 'images/q5.jpg',
+          imageSource: 'The Washington Post'
 		},
       {
 			questionText: "Who was the police office, Hwang Jun-ho, searching for?",
@@ -62,7 +62,7 @@
 				{ answerText: 'His younger brother', isCorrect: false },
 				{ answerText: 'His older brother', isCorrect: true },
 			],
-            imageURL: 'https://parade.com/wp-content/uploads/2021/10/FA9125wUUAgIzc3.jpeg',
+            imageURL: 'images/q6.jpeg',
             imageSource: 'Parade'
 		},
       {
@@ -73,7 +73,7 @@
 				{ answerText: '5', isCorrect: false },
 				{ answerText: '6', isCorrect: true },
 			],
-            imageURL: 'https://pyxis.nymag.com/v1/imgs/392/393/de2bb6f1dc1f2aeb3bcdc0bbc708e21918-robot-doll-squid-game-chat-room-silo.rhorizontal.w700.jpg',
+            imageURL: 'images/q7.png',
           imageSource: 'New York Magazine'
 		},
       {
@@ -84,7 +84,7 @@
 				{ answerText: '564', isCorrect: false },
 				{ answerText: '654', isCorrect: false },
 			],
-            imageURL: 'https://img.buzzfeed.com/buzzfeed-static/static/2021-10/1/6/asset/670c2600d172/sub-buzz-2360-1633070751-48.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto',
+            imageURL: 'images/q8.jpeg',
           imageSource: 'Buzzfeed'
 		},
       {
@@ -95,7 +95,7 @@
 				{ answerText: 'University of Seoul', isCorrect: false },
 				{ answerText: 'Sogang University', isCorrect: false },
 			],
-            imageURL: 'https://thecinemaholic.com/wp-content/uploads/2021/09/Squid-Game-jhvyte5rt.jpg',
+            imageURL: 'images/q9.jpg',
             imageSource: 'The Cinemaholic'
 		},
       
@@ -107,7 +107,7 @@
 				{ answerText: 'Circle', isCorrect: false },
 				{ answerText: 'Umbrella', isCorrect: true },
 			],
-            imageURL: 'https://static01.nyt.com/images/2021/10/05/dining/05Dalgona4/merlin_195850305_157801a2-a485-4dbc-bb89-cdb80a38cc33-articleLarge.jpg?quality=75&auto=webp&disable=upscale',
+            imageURL: 'images/q10.jpg',
             imageSource: 'The New York Times'
 		},
       
@@ -119,7 +119,7 @@
 				{ answerText: 'Metal Man', isCorrect: false },
 				{ answerText: 'Squid Man', isCorrect: false },
 			],
-            imageURL: 'https://wegotthiscovered.com/wp-content/uploads/2021/10/Squid-Game-Front-Man.png',
+            imageURL: 'images/q11.jpg',
             imageSource: 'We Got This Covered'
 		},
         {
@@ -130,7 +130,7 @@
 				{ answerText: 'North Korea', isCorrect: true },
 				{ answerText: 'Japan', isCorrect: false },
 			],
-            imageURL: 'https://www.datocms-assets.com/55615/1632432953-1632130988208497-img4244.jpg?auto=format%2Ccompress',
+            imageURL: 'images/q12.jpg',
             imageSource: `L'Officiel Malaysia`
 		},
         {
@@ -141,7 +141,7 @@
 				{ answerText: '10 minutes', isCorrect: false },
 				{ answerText: '5 minutes', isCorrect: true },
 			],
-            imageURL: 'https://pyxis.nymag.com/v1/imgs/704/0cc/b3e8643f5f42456921fcecfbab4a65db4f-SquidGame-Unit-101-002.rsquare.w700.jpg',
+            imageURL: 'images/q13.jpg',
             imageSource: 'The New York Times'
 		},
         {
@@ -152,7 +152,7 @@
 				{ answerText: 'To help his sick mother', isCorrect: false },
 				{ answerText: 'To provide for his family', isCorrect: false },
 			],
-            imageURL: 'https://thecinemaholic.com/wp-content/uploads/2021/09/netflix-squid-game.jpg',
+            imageURL: 'images/q14.jpg',
             imageSource: 'The Cinemaholic'
 		},
        {
@@ -163,7 +163,7 @@
 				{ answerText: 'Hwang Dong-hyuk', isCorrect: true },
 				{ answerText: 'Soo Hyeon', isCorrect: false },
 			],
-            imageURL: 'https://ichef.bbci.co.uk/news/976/cpsprodpb/D497/production/_120732445_-3.jpg',
+            imageURL: 'images/q15.jpg',
            imageSource: 'BBC'
 		}
 	];
