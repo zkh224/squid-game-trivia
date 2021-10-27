@@ -80,14 +80,14 @@ function imageResult(score) {
 
                   
                       ) : (
-                        <>
+                    
                   
                   <Questions 
                       questions={questions}
                       currentQuestion={currentQuestion}
                       handleAnswerButtonClick={handleAnswerButtonClick} 
                       />
-                          </> 
+                          
                         )} 
                      
               
