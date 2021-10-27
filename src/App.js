@@ -63,11 +63,12 @@ function imageResult(score) {
     
   return (
       
-      <div className='app bg-blue-100 relative'>
-            
-          <body className="min-h-screen p-8 flex flex-col items-center justify-center">
-     
+
+          <body className='min-h-screen bg-blue-100 relative'>
+              
+                <h1 className="text-2xl font-bold font-mono text-center pt-3">Squid Game Trivia Quiz</h1>
                   
+              <div className="px-8 pt-6 pb-10 flex flex-col items-center justify-center">
                   {showScore ? (
                   
                   <Results
@@ -89,16 +90,15 @@ function imageResult(score) {
                       />
                           
                         )} 
+                  
+                    <Footer />
+                  
+                </div>
                      
               
-                 <Footer />
+                 
               </body>
           
-         
-      
-       
-       
-  </div>
       
       
   );
