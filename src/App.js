@@ -64,40 +64,41 @@ function imageResult(score) {
   return (
       
 
-          <body className='min-h-screen bg-blue-100 relative'>
+    <body className='min-h-screen bg-blue-100 relative'>
               
-                <h1 className="text-2xl font-bold font-mono text-center pt-3">Squid Game Trivia Quiz</h1>
+        <h1 className="text-2xl font-bold font-mono text-center pt-3">Squid Game Trivia Quiz</h1>
                   
               <div className="px-8 pt-6 pb-10 flex flex-col items-center justify-center">
-                  {showScore ? (
                   
-                  <Results
-                      score={score}
-                      reset={resetButton}
-                      questions={questions}
-                      textResult={textResult}
-                      imageResult={imageResult}
-                    />
+                      {showScore ? (
 
-                  
-                      ) : (
-                    
-                  
-                  <Questions 
-                      questions={questions}
-                      currentQuestion={currentQuestion}
-                      handleAnswerButtonClick={handleAnswerButtonClick} 
-                      />
-                          
+                      <Results
+                          score={score}
+                          reset={resetButton}
+                          questions={questions}
+                          textResult={textResult}
+                          imageResult={imageResult}
+                        />
+
+
+                          ) : (
+
+
+                      <Questions 
+                          questions={questions}
+                          currentQuestion={currentQuestion}
+                          handleAnswerButtonClick={handleAnswerButtonClick} 
+                          />
+
                         )} 
-                  
-                    <Footer />
+
+                        <Footer />
                   
                 </div>
                      
               
                  
-              </body>
+        </body>
           
       
       
