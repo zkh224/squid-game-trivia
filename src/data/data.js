@@ -7,7 +7,7 @@
 				{ answerText: '45.6 billion won', isCorrect: true },
 				{ answerText: '46 billion won', isCorrect: false },
 			],
-            imageURL: 'images/money.jpg',
+            imageURL: 'images/q1.jpg',
             imageSource: 'TripZilla',
 		},
 		{
