@@ -13,7 +13,7 @@ const Questions = (props) => {
                             <div className="font-bold text-2xl md:text-3xl mb-6">{props.questions[props.currentQuestion].questionText}</div>
                             <div className="space-y-4 mb-2">
                                   {props.questions[props.currentQuestion].answerOptions.map((answerOptions) => (
-                                      <button onClick={ () => props.handleAnswerButtonClick(answerOptions.isCorrect)} className="w-full py-2 text-white bg-green-700 rounded-lg focus:shadow-outline hover:bg-green-500 text-left pl-4">{answerOptions.answerText}</button>
+                                      <button onClick={ () => props.handleAnswerButtonClick(answerOptions.isCorrect)} className="w-full py-2 text-white bg-green-700 rounded-lg focus:shadow-outline sm:hover:bg-green-500 text-left pl-4">{answerOptions.answerText}</button>
                                   ))}
 
                             </div>

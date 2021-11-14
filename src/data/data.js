@@ -7,8 +7,8 @@
 				{ answerText: '45.6 billion won', isCorrect: true },
 				{ answerText: '46 billion won', isCorrect: false },
 			],
-            imageURL: 'images/q1.jpg',
-            imageSource: 'Unsplash',
+            imageURL: 'images/money.jpg',
+            imageSource: 'TripZilla',
 		},
 		{
 			questionText: 'How many people took part in the game?',
